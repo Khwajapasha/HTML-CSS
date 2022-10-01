@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      .myClass {
+        background-color: teal;
+      }
+    </style>
+    <script>
+      document.querySelector("#password").textContent = "bye";
+    </script>
+  </head>
+  <body>
+    <form action="function">
+      <!-- Input Types -->
+      <label>User Name</label>
+      <input type="text" placeholder="User Name" /><br />
+
+      <label htmlFor="">User Email</label>
+      <input type="email" /><br />
+
+      <label htmlFor="">Password</label>
+      <input type="password" /><br />
+
+      <label htmlFor="">Number</label>
+      <input type="number" min="10" max="100" /><br />
+
+      <label htmlFor="">Date</label>
+      <input type="date" max="2022-09-11" /><br />
+
+      <label htmlFor="">File</label>
+      <input type="file" accept=".txt" /><br />
+
+      <label htmlFor="">Range</label>
+      <input type="range" /><br />
+
+      <label htmlFor="">Color</label>
+      <input type="color" /><br />
+
+      <label htmlFor="">Search</label>
+      <input type="search" /><br />
+
+      <label htmlFor="">Time</label>
+      <input type="time" name="" id="" /><br />
+
+      <label htmlFor="">Week</label>
+      <input type="week" name="" id="" /><br />
+
+      <input type="radio" name="google" id="" />
+      <label htmlFor="male">Male</label>
+
+      <input type="radio" name="google" id="" />
+      <label htmlFor="female">Female</label>
+
+      <input type="radio" name="google" id="" />
+      <label htmlFor="other">Other</label>
+
+      <label htmlFor="">HTML</label>
+      <input type="checkbox" />
+      <label htmlFor="">CSS</label>
+      <input type="checkbox" />
+      <label htmlFor="">Javascript</label>
+      <input type="checkbox" />
+      <label htmlFor="">React JS</label>
+      <input type="checkbox" /><br />
+
+      <label htmlFor="">Hidden</label>
+      <input type="hidden" />
+
+      <input type="radio" name="google" id="" />
+      <input type="submit" value="Submit" />
+
+      <input type="reset" value="Clear" /><br />
+
+      <input type="button" value="OK Google" />
+
+      <!-- TextArea For Multiline -->
+      <p draggable="true">Leave your Comments</p>
+      <textarea name="" id="" cols="50" rows="5"></textarea> <br />
+
+      <!-- Dropdown -->
+      <select class="myClass">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS" selected>Javascript</option>
+        <option value="JS">React</option>
+      </select>
+    </form>
+
+    <div>
+      <input type="text" name="" id="" placeholder="search" />
+      <code id="password">Hello Wolrd</code>
+      <b>Hello World</b>
+    </div>
+    <div class="myClass">
+      <input type="text" name="" id="" placeholder="pass" />
+      <p>
+        Lorem ipsum dolor sit
+        <span style="color: red; background-color: black"> amet </span
+        >consectetur adipisicing elit. Vel, praesentium.
+      </p>
+    </div>
+  </body>
+</html>

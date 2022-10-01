@@ -1,0 +1,45 @@
+Introduction to css
+Cascading Style Sheet used to design 
+the web page.
+
+Types:-
+1.Inline:->>
+It will be always written in opening tags of
+HTML Element.
+syntax:- <OT style="color:red;backgroung-color:black;"
+
+2.Internal:->>
+It will be always written in <style> in <head> tag of
+HTML Element.
+
+syntax:- 
+<style>
+div{
+background-color:lightblue;
+}
+
+.sample{
+background-color:red;
+}
+
+#sample2{
+background-color:red;
+}
+</style>
+
+3.External:->
+It will be always written in external file in any folder
+div{
+backgroundColor:lightblue;
+}
+
+.sample{
+background-color:red;
+}
+
+#sample2{
+background-color:red;
+}
+
+
+
